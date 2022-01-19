@@ -1,0 +1,15 @@
+jQuery(document).ready(function() {
+jQuery('.expand').click(function(){
+//get collapse content selector
+var collapse_content_selector = jQuery(this).attr('href');	
+
+//make the collapse content to be shown or hide
+var toggle_switch = jQuery(this);
+jQuery(collapse_content_selector).toggle(function(){
+if($(this).css('display')=='none'){
+
+}
+});
+});
+
+});	
